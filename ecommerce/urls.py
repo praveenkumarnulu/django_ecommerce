@@ -22,5 +22,7 @@ urlpatterns = [
     url(r'^$', home_page),
     url(r'^about/$', about_page),
     url(r'^contact/$', contact_page),
+    url(r'^login/$', login_page),
     url(r'^admin/', admin.site.urls),
+    
 ]
