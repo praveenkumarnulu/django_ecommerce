@@ -23,6 +23,8 @@ urlpatterns = [
     url(r'^about/$', about_page),
     url(r'^contact/$', contact_page),
     url(r'^login/$', login_page),
+    url(r'^register/$', register_page),
     url(r'^admin/', admin.site.urls),
-    
+    url(r'^logout/$', logout_view)
+
 ]
